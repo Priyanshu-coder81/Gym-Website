@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background: url(images/man-1282232_1280.jpg);
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.left{
+    
+    display: inline-block;
+    position: absolute;
+    top: 12px;;
+    left: 0px;
+    padding: 0px;
+}
+.mid{
+   
+    width: 39%;
+    margin: 12px auto;
+    padding: 4px;
+
+}
+.right{
+    
+    display: inline-block;
+    position: absolute;
+    top: 12px;
+    right: 0px;
+    padding: 4px;
+
+}
+.container li a{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 18px;
+
+}
+.container li{
+    display: inline-block;
+    margin: 20px 12px;
+}
+.container li a:hover , .container li a.active{
+    color:rgb(133, 133, 133);
+    text-decoration: underline;
+}
+
+.left img{
+    filter: invert(1);
+    width: 153px;
+    height: auto;
+    
+
+}
+.left div{
+    position: relative;
+    top: -34px;
+    text-align: center;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: 2px solid grey;
+    border-radius: 12px;
+    margin: 5px 16px;
+    padding: 2px 14px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    
+    color: rgb(144, 144, 144);
+}
+
+.cnt{
+    border: 2px solid white;
+    margin: 95px 52px;
+    padding: 60px;
+    width: 38%;
+    border-radius: 19px;
+    background-color: transparent;
+}
+
+.form-group input{
+    display: block;
+    text-align: center;
+    margin: 9px -9px;
+    padding: 9px 76px;
+    border: 2px solid black;
+    border-radius: 2px;
+    color: white;
+    filter: invert(1);
+    font-size: 20px;
+  
+
+
+}
+.cnt button{
+    display: block;
+    margin: auto;
+   
+}
